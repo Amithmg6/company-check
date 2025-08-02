@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Financial Solutions - Your Partner in Wealth</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #333;
+        }
+        .header-bg {
+            background-color: #003366; /* Dark Blue */
+        }
+        .hero-section {
+            background: linear-gradient(rgba(0, 51, 102, 0.8), rgba(0, 51, 102, 0.8)), url('https://placehold.co/1920x800/003366/FFFFFF?text=Financial+Growth') no-repeat center center/cover;
+            color: white;
+        }
+        .btn-primary {
+            background-color: #FFD700; /* Gold */
+            color: #003366;
+            transition: background-color 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #E0B500;
+        }
+        .btn-secondary {
+            border: 2px solid #FFD700;
+            color: #FFD700;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .btn-secondary:hover {
+            background-color: #FFD700;
+            color: #003366;
+        }
+        .section-bg-light {
+            background-color: #f8f9fa; /* Light Gray */
+        }
+        .footer-bg {
+            background-color: #002244; /* Even darker blue */
+            color: white;
+        }
+        .icon-svg {
+            fill: #FFD700; /* Gold for icons */
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="header-bg shadow-lg">
+        <nav class="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <!-- SVG Logo for Financial Company -->
+                <svg class="w-8 h-8 icon-svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2L2 7V17L12 22L22 17V7L12 2ZM12 4.47L18.83 8.3L12 12.13L5.17 8.3L12 4.47ZM4 9.5V16.5L12 20.5V13.5L4 9.5ZM20 9.5V16.5L12 20.5V13.5L20 9.5Z"/>
+                </svg>
+                <a href="#" class="text-white text-2xl font-bold rounded-md">Apex Financial Solutions</a>
+            </div>
+            <div class="mt-4 md:mt-0">
+                <ul class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6 text-white text-lg">
+                    <li><a href="#services" class="hover:text-yellow-300 rounded-md">Services</a></li>
+                    <li><a href="#about" class="hover:text-yellow-300 rounded-md">About Us</a></li>
+                    <li><a href="#insights" class="hover:text-yellow-300 rounded-md">Insights</a></li>
+                    <li><a href="#contact" class="hover:text-yellow-300 rounded-md">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center py-20 md:py-32 rounded-b-lg">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6 rounded-md">Your Trusted Partner in Financial Growth</h1>
+            <p class="text-xl md:text-2xl mb-10 max-w-3xl mx-auto rounded-md">Empowering individuals and businesses with tailored financial strategies for a secure future.</p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="#contact" class="btn-primary px-8 py-3 text-lg font-semibold rounded-full shadow-lg">Get a Consultation</a>
+                <a href="#services" class="btn-secondary px-8 py-3 text-lg font-semibold rounded-full shadow-lg">Explore Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 md:py-24 bg-white rounded-lg shadow-md mx-4 md:mx-auto mt-8 max-w-6xl">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800 rounded-md">Our Comprehensive BPO Financial Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Card 1: Record to Report (R2R) -->
+                <div class="bg-gray-50 p-8 rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-yellow-500 mb-4">
+                        <svg class="w-12 h-12 mx-auto" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20ZM12 11.5L16 8L12 4.5L8 8L12 11.5ZM12 13.5L8 10L12 6.5L16 10L12 13.5ZM12 15.5L8 12L12 8.5L16 12L12 15.5Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4 text-center rounded-md">Record to Report (R2R)</h3>
+                    <p class="text-gray-600 text-center rounded-md">Comprehensive management of financial data from collection to reporting, ensuring accurate financial statements and strategic insights. Includes data gathering, journal entries, account reconciliation, financial close, consolidation, and regulatory submissions.</p>
+                </div>
+                <!-- Service Card 2: Order to Cash (O2C) -->
+                <div class="bg-gray-50 p-8 rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-yellow-500 mb-4">
+                        <svg class="w-12 h-12 mx-auto" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20ZM12 13L16 17H8L12 13ZM12 7L8 11H16L12 7Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4 text-center rounded-md">Order to Cash (O2C)</h3>
+                    <p class="text-gray-600 text-center rounded-md">End-to-end management of the sales cycle, from order placement to cash collection. Includes order management, credit management, order fulfillment, invoicing, accounts receivable, cash application, and collections.</p>
+                </div>
+                <!-- Service Card 3: Procure to Pay (P2P) -->
+                <div class="bg-gray-50 p-8 rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-yellow-500 mb-4">
+                        <svg class="w-12 h-12 mx-auto" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 6H4C2.9 6 2 6.9 2 8V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V8C22 6.9 21.1 6 20 6ZM20 18H4V8H20V18ZM18 10H6V12H18V10ZM18 14H6V16H18V14Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4 text-center rounded-md">Procure to Pay (P2P)</h3>
+                    <p class="text-gray-600 text-center rounded-md">Managing the entire procurement lifecycle, from identifying needs to final supplier payment. Covers requisitioning, sourcing, purchase order creation, receiving, invoice processing, and payment execution.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-16 md:py-24 section-bg-light rounded-lg shadow-md mx-4 md:mx-auto mt-8 max-w-6xl">
+        <div class="container mx-auto px-4 flex flex-col lg:flex-row items-center lg:space-x-12">
+            <div class="lg:w-1/2 mb-8 lg:mb-0">
+                <img src="https://placehold.co/600x400/003366/FFFFFF?text=Our+Team" alt="Our Professional Team" class="rounded-lg shadow-xl w-full h-auto">
+            </div>
+            <div class="lg:w-1/2">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6 rounded-md">About Apex Financial Solutions</h2>
+                <p class="text-gray-700 leading-relaxed mb-6 rounded-md">
+                    At Apex Financial Solutions, we are dedicated to providing unparalleled financial expertise and personalized service. With years of experience in the financial industry, our team of seasoned professionals is committed to helping our clients achieve their financial aspirations.
+                </p>
+                <p class="text-gray-700 leading-relaxed mb-6 rounded-md">
+                    We believe in building long-term relationships based on trust, transparency, and a deep understanding of your unique financial needs. Our approach combines rigorous analysis with innovative strategies to deliver optimal results.
+                </p>
+                <a href="#contact" class="btn-primary px-6 py-2 text-lg font-semibold rounded-full shadow-lg">Meet Our Team</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="py-16 md:py-24 bg-white text-center rounded-lg shadow-md mx-4 md:mx-auto mt-8 max-w-6xl">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6 rounded-md">Ready to Secure Your Financial Future?</h2>
+            <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto rounded-md">Contact us today for a complimentary consultation and discover how we can help you achieve your financial goals.</p>
+            <a href="#contact" class="btn-primary px-8 py-3 text-lg font-semibold rounded-full shadow-lg">Schedule a Consultation</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 md:py-24 section-bg-light rounded-lg shadow-md mx-4 md:mx-auto mt-8 mb-8 max-w-6xl">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12 rounded-md">Get in Touch</h2>
+            <div class="flex flex-col lg:flex-row justify-center items-start lg:space-x-12">
+                <div class="lg:w-1/2 w-full mb-8 lg:mb-0 bg-white p-8 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-6 rounded-md">Contact Information</h3>
+                    <p class="text-gray-700 mb-4 rounded-md"><strong>Address:</strong> 123 Financial Tower, Business District, City, Country</p>
+                    <p class="text-gray-700 mb-4 rounded-md"><strong>Phone:</strong> +1 (555) 123-4567</p>
+                    <p class="text-gray-700 mb-4 rounded-md"><strong>Email:</strong> info@apexfinancialsolutions.com</p>
+                    <p class="text-gray-700 mb-4 rounded-md"><strong>Hours:</strong> Mon - Fri: 9:00 AM - 5:00 PM</p>
+                    <div class="mt-6">
+                        <h4 class="text-xl font-semibold text-gray-800 mb-4 rounded-md">Follow Us:</h4>
+                        <div class="flex space-x-4">
+                            <!-- Social Media Icons (placeholders) -->
+                            <a href="#" class="text-blue-600 hover:text-blue-800 rounded-full">
+                                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 16.9913 5.65727 21.1217 10.4394 21.8784V14.8906H7.89697V12H10.4394V9.35616C10.4394 6.8752 11.9688 5.51812 14.2882 5.51812C15.3702 5.51812 16.5042 5.71749 16.5042 5.71749V8.12594H15.2009C13.9003 8.12594 13.5042 8.94857 13.5042 9.78912V12H16.3341L15.8919 14.8906H13.5042V21.8784C18.3492 21.1199 22 16.9913 22 12Z"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="text-blue-400 hover:text-blue-600 rounded-full">
+                                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22 4.00996C21.321 4.30096 20.601 4.50096 19.86 4.60096C20.61 4.10096 21.18 3.30096 21.46 2.40096C20.74 2.80096 19.96 3.10096 19.14 3.30096C18.46 2.60096 17.56 2.20096 16.54 2.20096C14.5 2.20096 12.83 3.90096 12.83 5.90096C12.83 6.20096 12.86 6.50096 12.92 6.80096C9.69 6.60096 6.87 5.00096 4.96 2.50096C4.63 3.00096 4.45 3.60096 4.45 4.20096C4.45 5.50096 5.11 6.60096 6.13 7.30096C5.51 7.30096 4.92 7.10096 4.38 6.80096V6.90096C4.38 8.70096 5.67 10.201 7.33 10.601C7.03 10.701 6.72 10.701 6.4 10.701C6.18 10.701 5.96 10.701 5.75 10.601C6.23 12.101 7.69 13.201 9.38 13.201C8.07 14.201 6.47 14.801 4.7 14.801C4.38 14.801 4.07 14.801 3.76 14.701C5.43 15.801 7.38 16.501 9.5 16.501C16.54 16.501 20.33 10.601 20.33 5.50096C20.33 5.30096 20.33 5.10096 20.32 4.90096C21.05 4.40096 21.69 3.80096 22 3.10096V4.00996H22Z"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="text-red-600 hover:text-red-800 rounded-full">
+                                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM17.15 16.35C16.89 16.61 13.11 16.61 12 16.61C10.89 16.61 7.11 16.61 6.85 16.35C6.59 16.09 6.59 12.89 6.59 12C6.59 11.11 6.59 7.91 6.85 7.65C7.11 7.39 10.89 7.39 12 7.39C13.11 7.39 16.89 7.39 17.15 7.65C17.41 7.91 17.41 11.11 17.41 12C17.41 12.89 17.41 16.09 17.15 16.35Z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 w-full bg-white p-8 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-6 rounded-md">Send Us a Message</h3>
+                    <form>
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Name</label>
+                            <input type="text" id="name" name="name" class="shadow appearance-none border rounded-md w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Your Name">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email</label>
+                            <input type="email" id="email" name="email" class="shadow appearance-none border rounded-md w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Your Email">
+                        </div>
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Message</label>
+                            <textarea id="message" name="message" rows="5" class="shadow appearance-none border rounded-md w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Your Message"></textarea>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <button type="submit" class="btn-primary px-6 py-2 text-lg font-semibold rounded-full shadow-lg">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-bg py-8 rounded-t-lg">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-gray-300 text-sm rounded-md">&copy; 2025 Apex Financial Solutions. All rights reserved.</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="#" class="text-gray-300 hover:text-white text-sm rounded-md">Privacy Policy</a>
+                <span class="text-gray-500">|</span>
+                <a href="#" class="text-gray-300 hover:text-white text-sm rounded-md">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
